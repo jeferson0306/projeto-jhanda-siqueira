@@ -279,52 +279,83 @@ header {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    width: 60%;
-    height: 300px;
-    background-color: #7476e9;
+    width: 100%;
+    height: 350px;
+    background-color: var(--corSecundaria);
 }
 
-.fifth-container {
+.footer-first-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+}
+
+.footer-one-p {
+    font-size: 2em;
+    color: var(--corPrincipal);
+}
+
+.footer-second-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    
+}
+
+.footer-third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%;
+    height: 96%;
+}
+
+.footer-third-container p {
+    color: var(--corPrincipal);
+    text-align: justify;
+    padding: 30px;
+    text-indent: 3.0em;
+}
+
+.btn-light {
+    margin: 10px;
+}
+
+.footer-icon-heart {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-fourth-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: var(--corSecundaria);
+
 }
 
-.fifth-container-title-p {
-    color: var(--corBlack);
-    text-align: justify;
-    text-indent: 3.0em;
-    font-size: 2em;
+.footer-fourth-container p {
+    font-size: 1em;
     color: var(--corPrincipal);
+    padding: 0;
+    width: 305px;
 }
 
-.fifth-container-subtitle-p {
-    color: var(--corBlack);
-    text-align: justify;
-    padding: 30px;
-    text-indent: 3.0em;
-    color: var(--corPrincipal);
+#footer-fourth-container-formulario {
+    border: 10px solid transparent;
 }
 
-.fifth-container-email-p {
-    color: var(--corBlack);
-    text-align: justify;
-    text-indent: 3.0em;
-    color: var(--corPrincipal);
-}
+.footer-fourth-container-formulario {}
 
-.fifth-container-contact-p {
-    color: var(--corBlack);
-    text-align: justify;
-    text-indent: 3.0em;
-    color: var(--corPrincipal);
-}
-.btn-outline-info {
+.btn-primary {
     margin: 10px;
+    width: 330px;
 }
