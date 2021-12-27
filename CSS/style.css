@@ -33,7 +33,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 90px;
+    height: 80px;
     background: transparent;
 }
 
@@ -160,6 +160,7 @@ header {
     align-items: center;
     flex-direction: column;
     width: 100%;
+    background-color: var(--corPrincipal);
 }
 
 .first-container {
@@ -219,17 +220,13 @@ header {
     align-items: center;
     flex-direction: column;
     width: 60%;
-    height: 850px;
-}
-
-.third-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 60%;
     height: 700px;
 }
+
+.third-container-margin {
+    margin-bottom: 20px;
+}
+
 
 .third-container h4 {
     color: var(--corSecundaria);
@@ -259,6 +256,7 @@ header {
     flex-direction: column;
     width: 60%;
     height: 100px;
+    margin: 30px;
 }
 
 .chatbox {
@@ -268,6 +266,7 @@ header {
     flex-direction: column;
     width: 60%;
     height:50px;
+    margin: 30px;
 }
 
 .fifth-container {
@@ -277,6 +276,10 @@ header {
     flex-direction: column;
     width: 60%;
     height: 600px;
+}
+.fifth-container p {
+    font-size: 1em;
+    font-weight: 500;
 }
 
 .fifth-container-second {
@@ -301,14 +304,17 @@ header {
     background-image:
     linear-gradient(
       to top right, 
-      var(--corAlternative), #ffffff);
+      var(--corWhite), #f8f8f8);
     border-radius: 5px;
 }
 
+.fifth-container-boxes:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.3);
+}
 .fifth-container-boxes p {
     font-size: 1em;
     font-weight: 500;
-    color: var(--corWhite);
+    color: var(--corBlack);
 }
 
 
@@ -386,6 +392,7 @@ footer {
 
 #footer-fourth-container-formulario {
     border: 10px solid transparent;
+    width: 330px;
 }
 
 .footer-fourth-container-formulario {}
